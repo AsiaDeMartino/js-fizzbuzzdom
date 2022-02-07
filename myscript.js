@@ -7,12 +7,17 @@ for (let i = 1; i <= 100; i++) {
     const quadrato = document.createElement("div");
     container.append(quadrato);
     quadrato.classList.add("quadrato");
-    quadrato.append(i);
+
+    if (i % 3 == 0 && i % 5 == 0){                         //selezionare i numeri che sono sia multipli di 3 che multipli di 5
+        quadrato.classList.add("FizzBuzz");
+        const FIZZBUZZ = "FizzBuzz";
+        quadrato.append(FIZZBUZZ);
+    }
 }       
         
+//selezionare multipli di 3
+//selezionare multipli di 5
 
-    //selezionare i numeri che sono sia multipli di 3 che multipli di 5
-    //selezionare multipli di 3
-    //selezionare multipli di 5
+
 
 
