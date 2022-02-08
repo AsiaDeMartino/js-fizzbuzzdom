@@ -20,6 +20,8 @@ for (let i = 1; i <= 100; i++) {
         QUADRATO.classList.add("Buzz");
         const BUZZ = "Buzz"
         QUADRATO.append(BUZZ);
+    } else {                                                //default
+        QUADRATO.append(i); 
     }
 }       
         
